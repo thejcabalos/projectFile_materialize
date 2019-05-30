@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Materialize Theme</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="main-header-inner">
+        <nav class="transparent">
+            <div class="container">
+                <div class="nav-wrapper">
+
+                    <a href="#" class="brand-logo">Quazzu</a>
+                    <a href="#" class="button-collapse" data-activates="mobile-nav">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+                    <ul class="right hide-on-med-and-down">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="solutions.html">Solution</a>
+                        </li>
+                        <li>
+                            <a href="signup.html" class="active-link">Sign Up</a>
+                        </li>
+                        <li>
+                            <a href="#login-modal" class="button purple modal-trigger">Login</a>
+                        </li>
+
+                        <li>
+                            <a href="http://facebook.com">
+                                <i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com">
+                                <i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com">
+                                <i class="fa fa-instagram"></i></a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="side-nav" id="mobile-nav">
+                        <h4 class="purple-text text-darken-4 center">Quazzu</h4>
+
+                        <li>
+                            <div class="divider"></div>
+                        </li>
+
+                        <li>
+                            <a href="index.html">
+                                <i class="fa fa-home gray-text text-darken-4"></i>Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="solutions.html">
+                                <i class="fa fa-cog gray-text text-darken-4"></i>Solution
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="signup.html" class="active-link">
+                                <i class="fa fa-users gray-text text-darken-4"></i>Sign Up</a>
+                        </li>
+
+                        <li>
+                            <a href="#login-modal" class="btn purple modal-trigger">Login</a>
+                        </li>
+
+                        <div class="divider"></div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- // SHOWCASE // -->
+        <div class="showcase container">
+            <div class="row">
+                <div class="col s12 m10 offset-m1 center">
+
+                    <h3>Welcome to Quazzu!</h3>
+                    <h4 style="color: cornflowerblue">Sign Up Now!</h4>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Section Sign Up -->
+    <section class="section section-signup">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+
+                    <h4 style="color: darkslateblue">Get An Account</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, modi sit odio temporibus aperiam
+                        harum asperiores nobis voluptates explicabo eos possimus eveniet natus officiis placeat? Magnam
+                        expedita placeat a nemo.</p>
+
+                    <h4 style="color: darkslateblue">Download the Free Software</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, modi sit odio temporibus aperiam
+                        harum asperiores nobis voluptates explicabo eos possimus eveniet natus officiis placeat? Magnam
+                        expedita placeat a nemo.</p>
+
+                    <h4 style="color: darkslateblue">Push to the Platform</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, modi sit odio temporibus aperiam
+                        harum asperiores nobis voluptates explicabo eos possimus eveniet natus officiis placeat? Magnam
+                        expedita placeat a nemo.</p>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card-panel grey lighten-4 grey-text text-darken-4 z-depth-0">
+                        <form action="">
+                            <h5 style="">Create An Account</h5>
+                            <div class="input-field">
+                                <input type="text" id="first_name">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="last_name">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="date" id="date" class="datepicker">
+                                <label for="birthday">Birth Date</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="email" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field">
+                                <select id="gender">
+                                    <option value="" disabled selected>Select Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="female">Not Specified</option>
+                                </select>
+                                <label for="gender">Gender</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="password" id="password" required>
+                                <label for="password">Password</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="password" id="password" required>
+                                <label for="confirm password">Confirm Password</label>
+                            </div>
+                    
+                            <div class="input-field">
+                                <select id="role">
+                                    <option value="" disabled selected>Select Role</option>
+                                    <option value="professional">Professional Developemnet</option>
+                                    <option value="hobbyist">hobbyist</option>
+                                    <option value="student">student</option>
+                                    <option value="manager">manager</option>
+                                    <option value="others">others</option>
+                                </select>
+                                <label for="role">Role</label>
+                            </div>
+                            <input type="submit" value="signup" class="btn btn-large purple"></input>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer deep-purple darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                        content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright deep-purple darken-1">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+
+
+    <div id="login-modal" class="modal">
+
+        <div class="modal-content">
+            <h4>Account Login</h4>
+            <p>Login to access your account dashboard</p>
+            <form>
+                <div class="input-field"><input type="email" id="email"><label for="email">Email</label></div>
+                <div class="input-field"><input type="password" id="password"><label for="password">Password</label>
+                </div>
+            </form>
+        </div>
+
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close btn grey">
+                <i class="fa fa-sync"></i>Reset Password
+            </a>
+        </div>
+
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close btn purple">
+                <i class="fa fa-lock"></i>Login
+            </a>
+        </div>
+
+    </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Custom JS & jQuery here
+            $('.carousel.carousel-slider').carousel({ fullWidth: true });
+            $('.button-collapse').sideNav();
+        });
+        // modal
+        $('.modal').modal();
+
+        $('select').material_select();
+
+        $('.datepicker').pickadate({
+            selectMonths: true,
+            selectYears: 15,
+            closeOnSelect: true
+        });
+    </script>
+</body>
+
+</html>

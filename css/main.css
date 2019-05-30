@@ -67,3 +67,18 @@ min-height: 240px;
 .section-podcast .primary-overlay {
   background: rgba(112, 81, 175, 0.7);
 }
+
+.main-header-inner{
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+
+}
+
+.main-header-inner .showcase {
+padding-top: 60px
+
+
+}
